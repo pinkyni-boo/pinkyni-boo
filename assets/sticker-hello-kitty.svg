@@ -1,25 +1,42 @@
-<svg width="320" height="96" viewBox="0 0 320 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="220" height="220" viewBox="0 0 220 220" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="helloBg" x1="24" y1="18" x2="296" y2="78" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FFF7FB"/>
-      <stop offset="1" stop-color="#F7DDE8"/>
-    </linearGradient>
+    <filter id="shadow" x="8" y="14" width="204" height="194" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#000000" flood-opacity="0.18"/>
+    </filter>
   </defs>
-  <rect x="3" y="3" width="314" height="90" rx="26" fill="url(#helloBg)"/>
-  <rect x="3" y="3" width="314" height="90" rx="26" stroke="#1A1A1F" stroke-width="2"/>
-  <rect x="14" y="14" width="292" height="68" rx="20" fill="#FFFFFF" fill-opacity="0.5"/>
 
-  <g transform="translate(28 20)">
-    <ellipse cx="23" cy="26" rx="19" ry="14" fill="#F4A7C4"/>
-    <ellipse cx="57" cy="26" rx="19" ry="14" fill="#F4A7C4"/>
-    <circle cx="40" cy="26" r="10" fill="#D75B94"/>
-    <path d="M18 23C24 18 31 18 37 23" stroke="#FCECF3" stroke-width="2" stroke-linecap="round"/>
-    <path d="M43 23C49 18 56 18 62 23" stroke="#FCECF3" stroke-width="2" stroke-linecap="round"/>
+  <g filter="url(#shadow)">
+    <path d="M52 92C42 79 40 59 48 41C60 16 91 18 103 44C105 49 106 54 106 58C108 55 110 52 112 49C127 24 158 19 174 42C187 61 184 89 166 104L164 155C164 172 150 186 132 186H88C70 186 56 172 56 155L54 104C53 100 52 96 52 92Z" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="18" stroke-linejoin="round"/>
   </g>
 
-  <circle cx="276" cy="24" r="4" fill="#D75B94"/>
-  <path d="M286 43L289 36L292 43L299 46L292 49L289 56L286 49L279 46L286 43Z" fill="#D8B154"/>
+  <path d="M52 92C42 79 40 59 48 41C60 16 91 18 103 44C105 49 106 54 106 58C108 55 110 52 112 49C127 24 158 19 174 42C187 61 184 89 166 104L164 155C164 172 150 186 132 186H88C70 186 56 172 56 155L54 104C53 100 52 96 52 92Z" fill="#FFFDFE" stroke="#2B2428" stroke-width="3.2" stroke-linejoin="round"/>
 
-  <text x="122" y="39" fill="#111218" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="700">Hello Kitty</text>
-  <text x="122" y="61" fill="#6D5560" font-family="Segoe UI, Arial, sans-serif" font-size="14">soft pink mood  •  pretty pixel energy</text>
+  <path d="M70 52C73 31 89 23 101 33C112 42 113 72 109 85L69 84C67 73 68 61 70 52Z" fill="#FFFDFE" stroke="#2B2428" stroke-width="3.2" stroke-linejoin="round"/>
+  <path d="M117 84C114 71 116 46 127 34C138 22 155 29 161 47C165 60 164 73 160 84H117Z" fill="#FFFDFE" stroke="#2B2428" stroke-width="3.2" stroke-linejoin="round"/>
+
+  <ellipse cx="110" cy="114" rx="48" ry="43" fill="#FFFDFE"/>
+  <ellipse cx="93" cy="107" rx="4.7" ry="6.4" fill="#2B2428"/>
+  <ellipse cx="126.5" cy="107" rx="4.7" ry="6.4" fill="#2B2428"/>
+  <ellipse cx="110" cy="121.5" rx="7.5" ry="5.6" fill="#F4C84D" stroke="#2B2428" stroke-width="2.2"/>
+  <circle cx="82" cy="124" r="5.5" fill="#F9D5E5" fill-opacity="0.9"/>
+  <circle cx="138" cy="124" r="5.5" fill="#F9D5E5" fill-opacity="0.9"/>
+
+  <path d="M71 114H48" stroke="#2B2428" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M72 122L48 126" stroke="#2B2428" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M72 106L48 99" stroke="#2B2428" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M149 114H172" stroke="#2B2428" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M148 122L172 126" stroke="#2B2428" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M148 106L172 99" stroke="#2B2428" stroke-width="3.2" stroke-linecap="round"/>
+
+  <g transform="translate(129 54)">
+    <ellipse cx="17" cy="15" rx="15" ry="11.5" fill="#F29CBE" stroke="#2B2428" stroke-width="3"/>
+    <ellipse cx="44" cy="15" rx="15" ry="11.5" fill="#F29CBE" stroke="#2B2428" stroke-width="3"/>
+    <circle cx="30.5" cy="15.5" r="9" fill="#E76B9C" stroke="#2B2428" stroke-width="3"/>
+    <path d="M10 14C15 10 20 10 24 14" stroke="#FFE8F1" stroke-width="2" stroke-linecap="round"/>
+    <path d="M36 14C41 10 46 10 51 14" stroke="#FFE8F1" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <path d="M34 161L41 146L48 161L63 168L48 175L41 190L34 175L19 168L34 161Z" fill="#F6C7D9" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M177 39L181 31L185 39L193 43L185 47L181 55L177 47L169 43L177 39Z" fill="#F3D06C" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M181 149L184 143L187 149L193 152L187 155L184 161L181 155L175 152L181 149Z" fill="#F6D8E5" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round"/>
 </svg>

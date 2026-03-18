@@ -3,9 +3,13 @@
 </div>
 
 <div align="center">
-  <img src="./assets/sticker-hello-kitty.svg" height="78" alt="Hello Kitty mini sticker" />
-  <img src="./assets/sticker-kuromi.svg" height="78" alt="Kuromi mini sticker" />
+  <img src="./assets/sticker-hello-kitty.svg" width="110" alt="Hello Kitty mini sticker" />
+  <img src="./assets/sticker-kuromi.svg" width="110" alt="Kuromi mini sticker" />
 </div>
+
+<p align="center">
+  <sub>tiny sticker corner: hello kitty x kuromi</sub>
+</p>
 
 <p align="center">
   <strong>creative, detail-oriented, and a little obsessed with making UI feel soft, polished, and memorable</strong>

@@ -1,31 +1,34 @@
-<svg width="320" height="96" viewBox="0 0 320 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="220" height="220" viewBox="0 0 220 220" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="kuroBg" x1="22" y1="16" x2="298" y2="80" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#121219"/>
-      <stop offset="1" stop-color="#1A1721"/>
-    </linearGradient>
+    <filter id="shadow" x="8" y="14" width="204" height="194" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#000000" flood-opacity="0.22"/>
+    </filter>
   </defs>
-  <rect x="3" y="3" width="314" height="90" rx="26" fill="url(#kuroBg)"/>
-  <rect x="3" y="3" width="314" height="90" rx="26" stroke="#E2B6C9" stroke-width="2"/>
-  <rect x="14" y="14" width="292" height="68" rx="20" fill="#FFFFFF" fill-opacity="0.03"/>
 
-  <g transform="translate(24 18)">
-    <path d="M20 21L5 7L22 8L35 2L34 18L28 31L20 21Z" fill="#C59BC7"/>
-    <path d="M58 21L73 7L56 8L43 2L44 18L50 31L58 21Z" fill="#C59BC7"/>
-    <circle cx="39" cy="30" r="16" fill="#FFFFFF"/>
-    <path d="M31 28L35 32" stroke="#111218" stroke-width="2.3" stroke-linecap="round"/>
-    <path d="M35 28L31 32" stroke="#111218" stroke-width="2.3" stroke-linecap="round"/>
-    <path d="M43 28L47 32" stroke="#111218" stroke-width="2.3" stroke-linecap="round"/>
-    <path d="M47 28L43 32" stroke="#111218" stroke-width="2.3" stroke-linecap="round"/>
-    <path d="M34 39C37 41 41 41 44 39" stroke="#111218" stroke-width="2.2" stroke-linecap="round"/>
-    <circle cx="39" cy="15" r="5" fill="#111218"/>
-    <path d="M35 15H43" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round"/>
-    <path d="M39 11V19" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round"/>
+  <g filter="url(#shadow)">
+    <path d="M48 90C38 78 37 58 48 44L80 20C87 15 97 19 98 29L101 57H119L122 29C123 19 133 15 140 20L172 44C183 58 182 78 172 90L166 100L166 155C166 173 151 188 132 188H88C69 188 54 173 54 155L54 100L48 90Z" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="18" stroke-linejoin="round"/>
   </g>
 
-  <circle cx="278" cy="25" r="4" fill="#E3B955"/>
-  <path d="M287 44L290 37L293 44L300 47L293 50L290 57L287 50L280 47L287 44Z" fill="#F5C8D8"/>
+  <path d="M48 90C38 78 37 58 48 44L80 20C87 15 97 19 98 29L101 57H119L122 29C123 19 133 15 140 20L172 44C183 58 182 78 172 90L166 100L166 155C166 173 151 188 132 188H88C69 188 54 173 54 155L54 100L48 90Z" fill="#2B242C" stroke="#2B242C" stroke-width="3.2" stroke-linejoin="round"/>
 
-  <text x="118" y="39" fill="#FFF6FA" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="700">Kuromi</text>
-  <text x="118" y="61" fill="#C8B8C2" font-family="Segoe UI, Arial, sans-serif" font-size="14">midnight charm  •  tiny rebel sparkle</text>
+  <path d="M83 24L61 41C54 47 52 58 56 67C63 58 79 56 92 57L90 31C90 26 86 23 83 24Z" fill="#2B242C"/>
+  <path d="M137 24L159 41C166 47 168 58 164 67C157 58 141 56 128 57L130 31C130 26 134 23 137 24Z" fill="#2B242C"/>
+
+  <ellipse cx="110" cy="118" rx="46" ry="44" fill="#FFFDFE"/>
+  <path d="M91 108L100 117" stroke="#2B2428" stroke-width="3.4" stroke-linecap="round"/>
+  <path d="M100 108L91 117" stroke="#2B2428" stroke-width="3.4" stroke-linecap="round"/>
+  <ellipse cx="126.5" cy="111" rx="4.8" ry="6.5" fill="#2B2428"/>
+  <path d="M105 129C108 132 112 132 115 129" stroke="#2B2428" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="92" cy="127" r="5.5" fill="#F0C6D8" fill-opacity="0.75"/>
+  <circle cx="136" cy="127" r="5.5" fill="#F0C6D8" fill-opacity="0.75"/>
+
+  <g transform="translate(96 62)">
+    <circle cx="14" cy="14" r="13" fill="#F29CBE" stroke="#2B2428" stroke-width="3"/>
+    <path d="M14 8V20" stroke="#2B2428" stroke-width="2.6" stroke-linecap="round"/>
+    <path d="M8 14H20" stroke="#2B2428" stroke-width="2.6" stroke-linecap="round"/>
+  </g>
+
+  <path d="M35 153L42 139L49 153L63 160L49 167L42 181L35 167L21 160L35 153Z" fill="#F6C7D9" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M176 42L180 34L184 42L192 46L184 50L180 58L176 50L168 46L176 42Z" fill="#F1CF72" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M180 150L183 144L186 150L192 153L186 156L183 162L180 156L174 153L180 150Z" fill="#E5D8F2" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round"/>
 </svg>
