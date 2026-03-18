@@ -1,0 +1,25 @@
+<svg width="320" height="96" viewBox="0 0 320 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="helloBg" x1="24" y1="18" x2="296" y2="78" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF7FB"/>
+      <stop offset="1" stop-color="#F7DDE8"/>
+    </linearGradient>
+  </defs>
+  <rect x="3" y="3" width="314" height="90" rx="26" fill="url(#helloBg)"/>
+  <rect x="3" y="3" width="314" height="90" rx="26" stroke="#1A1A1F" stroke-width="2"/>
+  <rect x="14" y="14" width="292" height="68" rx="20" fill="#FFFFFF" fill-opacity="0.5"/>
+
+  <g transform="translate(28 20)">
+    <ellipse cx="23" cy="26" rx="19" ry="14" fill="#F4A7C4"/>
+    <ellipse cx="57" cy="26" rx="19" ry="14" fill="#F4A7C4"/>
+    <circle cx="40" cy="26" r="10" fill="#D75B94"/>
+    <path d="M18 23C24 18 31 18 37 23" stroke="#FCECF3" stroke-width="2" stroke-linecap="round"/>
+    <path d="M43 23C49 18 56 18 62 23" stroke="#FCECF3" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <circle cx="276" cy="24" r="4" fill="#D75B94"/>
+  <path d="M286 43L289 36L292 43L299 46L292 49L289 56L286 49L279 46L286 43Z" fill="#D8B154"/>
+
+  <text x="122" y="39" fill="#111218" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="700">Hello Kitty</text>
+  <text x="122" y="61" fill="#6D5560" font-family="Segoe UI, Arial, sans-serif" font-size="14">soft pink mood  •  pretty pixel energy</text>
+</svg>

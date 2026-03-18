@@ -1,0 +1,47 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="healthBg" x1="40" y1="24" x2="1160" y2="236" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F1013"/>
+      <stop offset="1" stop-color="#15161B"/>
+    </linearGradient>
+    <radialGradient id="healthGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1008 54) rotate(147.4) scale(230 120)">
+      <stop stop-color="#D9B65A" stop-opacity="0.78"/>
+      <stop offset="1" stop-color="#D9B65A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="12" y="12" width="1176" height="236" rx="30" fill="url(#healthBg)"/>
+  <rect x="12" y="12" width="1176" height="236" rx="30" stroke="#30323A"/>
+  <ellipse cx="1018" cy="56" rx="236" ry="124" fill="url(#healthGlow)"/>
+
+  <g transform="translate(56 58)">
+    <circle cx="44" cy="44" r="44" fill="#161820" stroke="#2E313A"/>
+    <path d="M44 20V68" stroke="#F6CAD8" stroke-width="10" stroke-linecap="round"/>
+    <path d="M20 44H68" stroke="#F6CAD8" stroke-width="10" stroke-linecap="round"/>
+    <path d="M66 18C82 28 90 44 90 64" stroke="#D7B34F" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <text x="164" y="78" fill="#FFF8FB" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">Healthcare Clinic Management System</text>
+  <text x="164" y="110" fill="#E8D3DB" font-family="Segoe UI, Arial, sans-serif" font-size="20">Business Analyst / Fullstack Developer</text>
+
+  <text x="164" y="150" fill="#D8C9D0" font-family="Segoe UI, Arial, sans-serif" font-size="18">Built a calm, reliable clinic workflow for appointments, queues, payments, and role-based operations.</text>
+  <text x="164" y="178" fill="#D8C9D0" font-family="Segoe UI, Arial, sans-serif" font-size="18">Real-time dashboards, booking-slot protection, doctor queue logic, and JWT access control behind the scenes.</text>
+
+  <g>
+    <rect x="164" y="198" width="86" height="30" rx="15" fill="#1B1D24" stroke="#363842"/>
+    <text x="207" y="217" text-anchor="middle" fill="#F6CAD8" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">React</text>
+
+    <rect x="260" y="198" width="126" height="30" rx="15" fill="#1B1D24" stroke="#363842"/>
+    <text x="323" y="217" text-anchor="middle" fill="#FFF0C7" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">TypeScript</text>
+
+    <rect x="396" y="198" width="128" height="30" rx="15" fill="#1B1D24" stroke="#363842"/>
+    <text x="460" y="217" text-anchor="middle" fill="#E7DDE4" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Spring Boot</text>
+
+    <rect x="534" y="198" width="126" height="30" rx="15" fill="#1B1D24" stroke="#363842"/>
+    <text x="597" y="217" text-anchor="middle" fill="#F6CAD8" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">PostgreSQL</text>
+
+    <rect x="670" y="198" width="126" height="30" rx="15" fill="#1B1D24" stroke="#363842"/>
+    <text x="733" y="217" text-anchor="middle" fill="#FFF0C7" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">TailwindCSS</text>
+  </g>
+
+  <text x="1018" y="212" text-anchor="middle" fill="#17181D" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">tap to open repository</text>
+</svg>

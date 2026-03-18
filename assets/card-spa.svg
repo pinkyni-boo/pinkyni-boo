@@ -1,0 +1,53 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="spaBg" x1="40" y1="24" x2="1160" y2="236" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F1013"/>
+      <stop offset="1" stop-color="#16141A"/>
+    </linearGradient>
+    <radialGradient id="spaGlowPink" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1010 68) rotate(145.1) scale(246 128)">
+      <stop stop-color="#F5C8D8" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#F5C8D8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="spaGlowGold" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(980 48) rotate(145.3) scale(182 104)">
+      <stop stop-color="#D9B65A" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#D9B65A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="12" y="12" width="1176" height="236" rx="30" fill="url(#spaBg)"/>
+  <rect x="12" y="12" width="1176" height="236" rx="30" stroke="#30323A"/>
+  <ellipse cx="1010" cy="68" rx="246" ry="130" fill="url(#spaGlowPink)"/>
+  <ellipse cx="984" cy="52" rx="184" ry="108" fill="url(#spaGlowGold)"/>
+
+  <g transform="translate(56 58)">
+    <circle cx="44" cy="44" r="44" fill="#17171D" stroke="#2F3138"/>
+    <circle cx="35" cy="38" r="11" fill="#F5C8D8"/>
+    <circle cx="53" cy="31" r="9" fill="#FFF0C7"/>
+    <circle cx="59" cy="49" r="13" fill="#F0A7C4"/>
+    <path d="M29 64C39 70 50 70 60 64" stroke="#E6D1DA" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <text x="164" y="78" fill="#FFF8FB" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">Spa Management System</text>
+  <text x="164" y="110" fill="#E8D3DB" font-family="Segoe UI, Arial, sans-serif" font-size="20">Fullstack Developer</text>
+
+  <text x="164" y="150" fill="#D8C9D0" font-family="Segoe UI, Arial, sans-serif" font-size="18">Designed a softer admin experience for bookings, customers, invoices, reporting, and daily spa operations.</text>
+  <text x="164" y="178" fill="#D8C9D0" font-family="Segoe UI, Arial, sans-serif" font-size="18">Drag-and-drop scheduling, backend validation, and JWT auth made the flow feel organized and easy to manage.</text>
+
+  <g>
+    <rect x="164" y="198" width="86" height="30" rx="15" fill="#1B1D24" stroke="#363842"/>
+    <text x="207" y="217" text-anchor="middle" fill="#F6CAD8" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">React</text>
+
+    <rect x="260" y="198" width="102" height="30" rx="15" fill="#1B1D24" stroke="#363842"/>
+    <text x="311" y="217" text-anchor="middle" fill="#FFF0C7" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Node.js</text>
+
+    <rect x="372" y="198" width="110" height="30" rx="15" fill="#1B1D24" stroke="#363842"/>
+    <text x="427" y="217" text-anchor="middle" fill="#E7DDE4" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Express</text>
+
+    <rect x="492" y="198" width="118" height="30" rx="15" fill="#1B1D24" stroke="#363842"/>
+    <text x="551" y="217" text-anchor="middle" fill="#F6CAD8" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">MongoDB</text>
+
+    <rect x="620" y="198" width="128" height="30" rx="15" fill="#1B1D24" stroke="#363842"/>
+    <text x="684" y="217" text-anchor="middle" fill="#FFF0C7" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Ant Design</text>
+  </g>
+
+  <text x="1006" y="212" text-anchor="middle" fill="#17181D" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">tap to open project</text>
+</svg>
